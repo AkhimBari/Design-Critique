@@ -194,7 +194,7 @@ margin-bottom: 10%;
 }
 
 .critique h2 {
-    font-size: 3rem;
+font-size: 3rem;
 font-family: TiemposHeadline-Semibold;
 }
 
@@ -206,17 +206,18 @@ font-family: Theinhardt-Lt;
 }
 
 .prozent {
-    position: absolute;
+position: absolute;
 }
 
 .conversation {
 display: flex;
 align-items: center;
 position: relative;
-margin: 26% 5% 4% 26%;
+margin: 26% 5% 4% 23%;
 }
 
 .conversation p {
+color: #848689;
 font-size: 1.2rem;
 line-height: 150%;
 font-family: TiemposHeadline-Semibold;
@@ -262,12 +263,117 @@ color: #9FA2A7;
  /* Footer Ende */
 
 @media screen and (max-width: 600px) {
-
-
-
-
-
+nav {
+display: flex;
+justify-content: space-around;
+margin: 2% 0 10% 0;
+}
+nav h2 {
+font-size: 1.3rem;
+margin-right: 20px;
+font-family: TiemposHeadline-Semibold;
+}
+nav ul li {
+font-size: 10px;
+font-family: Graphik-Regular;
+}
+h1 {
+text-align: center;
+font-size: 1.2rem;
+font-family: Graphik-Regular;
+}
+.article>p {
+font-size: 1rem;
+margin-right: 80px;
+margin-left: 30px;
+width: 55%;
+font-family: Graphik-Medium;
+}
+.delivery {
+display: flex;
+justify-content: space-around;
+margin: 10% 3%;
+}
+.delivery img {
+width: 50%;
+height: 750px;
+}
+.delivery div {
+width: 45%
+}
+.delivery h2 {
+font-size: 2rem;
+padding: 17px 0;
+font-family: TiemposHeadline-Semibold;
+}
+.delivery h3 {
+font-size: 1.1rem;
+margin-top: 7%;
+font-family: Graphik-Medium;
+}
+.lady {
+display: flex;
+justify-content: space-around;
+background-color: #eff0f3;
+margin: 9% 4%;
+}
+.lady img {
+width: 50%;
+height: 650px;
+}
+.lady h2 {
+font-size: 1.1rem;
+font-family: TiemposHeadline-Semibold;
+}
+.lady div ol li {
+width: 79%;
+font-size: 1rem;
+color: #2B2C2E;
+font-family: Theinhardt-Lt;
+}
+.lady p {
+font-size: 1rem;
+width: 85%;
+color: #2B2C2E;
+margin-top: 2%;
+font-family: Theinhardt-Lt;
+}
+.lady div ol {
+margin: 2% 0% 25% 7%;
+}
+.critique h2 {
+font-size: 2rem;
+font-family: TiemposHeadline-Semibold;
+}
+.critique p {
+margin-top: 1%;
+font-size: 1rem;
+color: #9FA2A7;
+font-family: Theinhardt-Lt;
+}
+.prozent {
+position: absolute;
+width: 100%;
+margin: 0 auto;
+}
+.conversation p {
+font-size: 10px;
+line-height: 150%;
+font-family: TiemposHeadline-Semibold;
+}
+.conversation img {
+width: 45%;
+}
+.conversation {
+display: flex;
+align-items: center;
+position: relative;
+margin: 26% 10% 4% 22%;
+}
+.footer h2 {
+font-size: 2rem;
+margin-bottom: 4%;
+}
 }
 
- /* kommt gleich */
-  /* kommt gleich */
+ /* The End */
